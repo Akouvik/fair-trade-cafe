@@ -1,0 +1,355 @@
+/* GLOBAL STYLES
+
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+*{
+  box-sizing: border-box;
+font-family: 'Droid Sans Mono';
+}
+body {
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 0px;
+  margin-left: 0;
+
+/*font-family: 'Coming Soon';
+font-family: 'Roboto Mono', ;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Droid Sans Mono', ;*/
+
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+ position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+/*  background:linear-gradient(180deg, #bb5d00, transparent 95%);*/
+  background-color: #4b1e15;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+
+}
+/*right side links on the navbar*/
+.navbar-inverse .navbar-nav>li>a {
+  color: #66ffe0;
+  font-weight: bold;
+  font-size: 20px;
+
+
+}
+/*Button*/
+.btn-primary {
+    color: red;
+    opacity: .6;
+    background-color: transparent;
+    border-color: #33000d;
+}
+
+
+
+/*Name on left side of navbar*/
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    /*height: 500px;*/
+}
+
+.row {
+    height: 500px;
+    margin-right: 0;
+    margin-left: 0; 
+    padding:0 50px;
+    color: #C84E4C;
+    background-color: #e5e5e5;
+}
+
+.last{
+
+        background: url('images/food3.jpg')center no-repeat;
+      /*  background-size: 20px 900px;*/
+       /* background-color: violet;*/
+        background-size:contain;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        padding-right: 0px;
+        background-position:right; 
+}
+
+/*.item.active{
+  background: url('images/dd4y.jpg') center no-repeat;
+  background-size: cover;
+
+}*/
+
+  
+/*middle paragraph*/
+.carousel-caption p{
+  padding-top:10px;
+}
+/*h1{
+
+ color: #fff;
+
+}*/
+
+
+/*.first-slide{
+  background: cover, no-repeat;
+}*/
+
+/*.live{
+
+  background-image: url('images/Dd4y.jpg');
+}*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #C84E4C;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 400ms ease-in-out;
+
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+footer{
+
+  border:;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-left: 0px;
+  text-align: center;
+  padding-left: 90px;
+
+}
+.marketing h2 {
+  font-family: 'Signika', sans-serif;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+/*.marketing {
+  background-color: red;
+}*/
+
+.col-lg-4{
+    text-align: center;
+    height: auto;
+    /*background-color:pink;*/
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin: 0;
+
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 0;  Space out the Bootstrap <hr> more 
+}
+
+
+/*hr {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    border: 0;
+    /* border-top: 1px solid #eee; */
+}
+
+/*hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+*/
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.col-md-7 {
+        width: 48.3333333%;
+       /* outline: #000 solid 1px;*/
+        outline-offset: -15px;
+        padding: 20px;
+        margin: auto 100px;
+        display: inline-flex;
+        font-size: 12px;
+        /*border-radius: 20px;*/
+
+}
+/*.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p{
+  color: black;
+  opacity: .6;
+}*/
+
+
+
+.nae{
+      /*border: 5px dotted red;*/
+      background: url('images/rainbow2.jpg') center  no-repeat;
+      background-size: 590px 540px;
+
+      background-color: slategrey;
+      background-size:contain;
+      width: 100%;
+      visibility: visible;
+      opacity: 1;
+      padding-left: 0px;
+      background-position:right; 
+      /*background-repeat: round;*/
+    /* transition: opacity 400ms ease-in-out;*/
+
+}
+
+
+.vibe{
+ 
+color: #fff;
+opacity: 1;
+background-position: left;
+margin-left: 0;
+visibility: visible;
+
+}
+
+
+img {
+    vertical-align: center;
+}
+
+/*.team{
+    background: #0286a3;
+    color: #FFF;
+    padding-right: 0;
+}*/
+.meat{
+        background: url('images/vibe2.jpg') center;
+        background-size: 590px 550px;
+        background-repeat: no-repeat;
+        background-color: #ee7214;
+        color: #fff;
+        width: 100%;
+        visibility: visible;
+        background-position:left; 
+        color: #2e382e;
+
+}
+/*.col-md-push-5{
+ margin-left: 60px;
+
+}*/
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 60px;
+    /*font-size: 21px;*/
+    line-height: 1.5;
+    color:  #fff;
+   
+  }
+
+  .featurette-heading {
+    font-size: 35px;
+    text-align: left;
+    color: #fff;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
